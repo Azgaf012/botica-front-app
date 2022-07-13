@@ -8,10 +8,8 @@ import { Register } from './pages/public/Register'
 import { ForgotPassword } from './pages/public/ForgotPassword'
 import { Products } from './pages/private/Products'
 import { Sales } from './pages/private/Sales'
-<<<<<<< HEAD
-=======
+
 import { Warehouse } from './pages/private/Warehouse'
->>>>>>> 70ab4d5c99d06b4ef320ff1e18092e937d3e7ca8
 
 import './styles/Products.css'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -28,10 +26,9 @@ root.render(
       <Route path='/forgot' element={<ForgotPassword />} />
       <Route path='/products' element={<Products />} />
       <Route path='/sales' element={<Sales />} />
-<<<<<<< HEAD
-=======
+
       <Route path='/warehouse' element={<Warehouse />} />
->>>>>>> 70ab4d5c99d06b4ef320ff1e18092e937d3e7ca8
+
     </Routes>
   </BrowserRouter>
 );
