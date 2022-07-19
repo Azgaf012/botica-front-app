@@ -9,26 +9,26 @@ const Sidebar = () => {
           <ul className="nav flex-column">
             <li className="nav-item">
               <Link className="nav-link active" to="/dashboard">
-              <i class="bi bi-house-heart" style={{ fontSize: 20, marginRight: "10px" }} />
+              <i className="bi bi-house-heart" style={{ fontSize: 20, marginRight: "10px" }} />
                 Dashboard
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/dashboard/products" style={{ textDecoration: "none" }}>
-                <i class="bi bi-bandaid" style={{ fontSize: 20, marginRight: "10px" }} />
+                <i className="bi bi-bandaid" style={{ fontSize: 20, marginRight: "10px" }} />
                 Productos
               </Link>
               <span data-feather="file"></span>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/dashboard/kardex">
-                <i class="bi bi-clipboard" style={{ fontSize: 20, marginRight: "10px" }} />
+                <i className="bi bi-clipboard" style={{ fontSize: 20, marginRight: "10px" }} />
                 Inventario
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/dashboard/sale">
-                <i class="bi bi-cart" style={{ fontSize: 20, marginRight: "10px" }} />
+                <i className="bi bi-cart" style={{ fontSize: 20, marginRight: "10px" }} />
                 Venta
               </Link>
             </li>
